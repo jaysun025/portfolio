@@ -10,8 +10,10 @@ function App() {
     <div className = 'aboutMe'>
         <h2>About Jason</h2>
         <p className = 'aboutMeText'> 
-            Just some place holder text. Want to make sure the gradiant is working
-            like it is meant too or maybe I'm crazy. 
+            Growing up with a love for electornics and videogames it's suprising I've 
+            taken this long to persue my dream. Completeing a full emerisve bootcamp
+            at General Assembly has given me a lot of tools I have on display. I'm always 
+            looking to improve on or work on a project wither it be my own or a groups.  
         </p>
     </div>
       <h1>Projects</h1>
@@ -34,16 +36,20 @@ function App() {
           </p>
     </div>
     <div className = 'project-three'>
-        <h2>Project 3</h2>
+        <h2>Game Over Flow</h2>
           <p>
-            Something about project 3
+            A group project I was apart of, I worked mostly on the front end using CSS and
+            React to build out the pages. The website is a place for gamers to go and 
+            converse about diffecult areas in a game and help one another.  
           </p>
     </div>
     <div className = 'project-four'>
-        <h2>Project 4</h2>
+        <h2>A Nice Walk</h2>
           <p>
-            Coming Soon!!!
-          </p>
+            My final project, also the one I'm most proud of. Using the unity engine 
+            with C# I was able to make the starting screen and a playable first person
+            experience. Very basic but still made with lots of love. 
+           </p>
     </div>
     </div>
     </div>

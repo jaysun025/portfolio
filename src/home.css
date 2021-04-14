@@ -6,9 +6,20 @@ html {
     min-height: 100vh;
 }
 
+.aboutMe {
+    width: 800px;
+    margin-left: 550px;
+    border: outset salmon 5px;
+    border-radius: 30px;
+    background-image: linear-gradient(pink, red);
+}
+
 .projects {
     display: flex;
     flex-direction: row;
+    border: inset slateblue 5px;
+    border-radius: 10%;
+    background-image: linear-gradient(blue, aqua) ;
 }
 
 .projects > div {
