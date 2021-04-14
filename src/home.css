@@ -1,0 +1,17 @@
+html {
+    text-align: center;
+    color: black;
+    font-size: large;
+    background-image: linear-gradient(red, yellow, green);
+    min-height: 100vh;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+}
+
+.projects > div {
+    width: 500px;
+    margin: 10px;
+}
