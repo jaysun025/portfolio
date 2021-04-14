@@ -52,6 +52,9 @@ function App() {
            </p>
     </div>
     </div>
+      <footer>
+        <p> A link to my linkedin github and maybe email should double check with rachel</p>
+      </footer>
     </div>
   );
 }
