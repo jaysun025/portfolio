@@ -5,7 +5,7 @@ function App() {
   return (
     <div className = 'background'>
     <header>
-      <h1>Jason's Portfolio</h1>
+      <h1>Jason Thulen</h1>
     </header>
     <div className = 'aboutMe'>
         <h2>About Jason</h2>
@@ -21,9 +21,9 @@ function App() {
     <div className = 'zombies'>
         <h2>Evening of the Dead</h2>
           <p>
-              A dodge the falling objects game with a zombie theme with the child
-              art done by yours truely. Use the arrow keys to move your survivor 
-              back and for to dodge the zombies.
+              Using javascript, html, and css I created a dogde the falling objects game, with a zombie theme.
+              I also made the background and zombies plus the character you control. Drew them using microsoft
+              paint(you totaly can't tell). A big undertaking but one of my proudest achievements. 
           </p>
     </div>
     <div className = 'ageOfEmpiresTwo'>
