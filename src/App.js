@@ -21,18 +21,40 @@ function App() {
       <h1>Projects</h1>
         <div className = 'projects'>
           <div className = 'zombies'>
-            <h2>Evening of the Dead</h2>
-              <div className = 'zomDrop'>
+            <button className = 'dropbtn'>Evening of the Dead</button>
+              <div className = 'zomContent'>
+                <p>
+                  Using JavaScript, CSS, and HTML I created a dodge the falling 
+                  objects game. It has  zombie theme to it and I did the art work
+                  myself. 
+                </p>
               </div>
           </div>
           <div className = 'ageOfEmpiresTwo'>
-            <h2>Age of Empires Helper Tree</h2>
+            <button className = 'dropbtn'>Age of Empires Helper Tree</button>
+            <div className = 'empireContent'>
+              <p>
+                We Shall Conquor all!!!
+              </p>
+            </div>
           </div>
           <div className = 'game-overflow'>
-            <h2>Game Over Flow</h2>
+            <button className = 'dropbtn'>Game Over Flow</button>
+            <div className = 'gameContent'>
+              <p>
+                Games are life. Life is games. 
+              </p>
+            </div>
           </div>
           <div className = 'a-nice-walk'>
-            <h2>A Nice Walk</h2>
+            <button className = 'dropbtn'>A Nice Walk</button>
+            <div className = 'walkContent'>
+              <p>
+                For a final project I chose to make a first person experience. Using unity and C# I was
+                able to create an experience allowing player to move, look, duck, sprint, jump, and interact with 
+                some objects. 
+              </p>
+            </div>
           </div>
     </div>
           <div className = 'languages-frameworks'>

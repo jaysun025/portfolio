@@ -19,15 +19,141 @@ html {
 .projects {
     display: flex;
     flex-direction: row;
-    border: inset slateblue 5px;
+    border: inset aqua 5px;
     border-radius: 10%;
-    background-image: linear-gradient(blue, aqua) ;
+    background-color: skyblue;
 }
 
 .projects > div {
     width: 500px;
     margin: 10px;
 }
+
+.dropbtn {
+    font-size: 30px;
+    background-color: skyblue;
+}
+
+.zombies {
+    position: relative;
+    display: inline-block;
+}
+
+.zomContent {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 1;
+}
+
+.zomContent p {
+    color: black;
+    display: block;
+}
+
+.zomContent p:hover {
+    background-color: white;
+}
+
+.zombies:hover .zomContent {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.zombies:hover .dropbtn {
+    background-color: aqua;
+}
+
+.ageOfEmpiresTwo {
+    position: relative;
+    display: inline-block;
+}
+
+.empireContent {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 1;
+}
+
+.empireContent p {
+    color: black;
+    display: block;
+}
+
+.empireContent p:hover {
+    background-color: #ddd;
+}
+
+.ageOfEmpiresTwo:hover .empireContent {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.ageOfEmpiresTwo:hover .dropbtn {
+    background-color: aqua;
+}
+
+.game-overflow {
+    position: relative;
+    display: inline-block;
+}
+
+.gameContent {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 1;
+}
+
+.gameContent p {
+    color: black;
+    display: block;
+}
+
+.gameContent p:hover {
+    background-color: #ddd;
+}
+
+.game-overflow:hover .gameContent {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.game-overflow:hover .dropbtn {
+    background-color: aqua;
+}
+
+.a-nice-walk {
+    position: relative;
+    display: inline-block;
+}
+
+.walkContent {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 1;
+}
+
+.walkContent p {
+    color: black;
+    display: block;
+}
+
+.walkContent p:hover {
+    background-color: #ddd;
+}
+
+.a-nice-walk:hover .walkContent {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.a-nice-walk:hover .dropbtn {
+    background-color: aqua;
+}
+
 
 .pageTop {
     background-color: black;
@@ -44,22 +170,6 @@ html {
     top: 100px;
 }
 
-.zomDrop {
-    display: none;
-    position: absolute;
-    background-color: slateblue;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-div.zombies.hover .zomDrop {
-    display: block;
-}
-
-div.zombies.hover .zomDrop {
-    background-color: green;
-}
 
 footer {
     color: black;
