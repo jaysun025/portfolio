@@ -19,37 +19,38 @@ function App() {
           </p>
         </div>
       <h1>Projects</h1>
+      <h2 className = 'evening'>Evening of the Dead</h2>
         <div className = 'projects'>
           <div className = 'zombies'>
-            <button className = 'dropbtn'>Evening of the Dead</button>
+            <button className = 'zombtn'>Evening of the Dead</button>
               <div className = 'zomContent'>
-                <p>
+                <p className = 'zombieP'>
                   Using JavaScript, CSS, and HTML I created a dodge the falling 
                   objects game. It has  zombie theme to it and I did the art work
-                  myself. 
+                  myself.
                 </p>
               </div>
           </div>
           <div className = 'ageOfEmpiresTwo'>
-            <button className = 'dropbtn'>Age of Empires Helper Tree</button>
+            <button className = 'empirebtn'>Age of Empires Helper Tree</button>
             <div className = 'empireContent'>
-              <p>
+              <p className = 'empireP'>
                 We Shall Conquor all!!!
               </p>
             </div>
           </div>
           <div className = 'game-overflow'>
-            <button className = 'dropbtn'>Game Over Flow</button>
+            <button className = 'gamebtn'>Game Over Flow</button>
             <div className = 'gameContent'>
-              <p>
+              <p className = 'gameP'>
                 Games are life. Life is games. 
               </p>
             </div>
           </div>
           <div className = 'a-nice-walk'>
-            <button className = 'dropbtn'>A Nice Walk</button>
+            <button className = 'walkbtn'>A Nice Walk</button>
             <div className = 'walkContent'>
-              <p>
+              <p className = 'walkP'>
                 For a final project I chose to make a first person experience. Using unity and C# I was
                 able to create an experience allowing player to move, look, duck, sprint, jump, and interact with 
                 some objects. 
@@ -60,11 +61,11 @@ function App() {
           <div className = 'languages-frameworks'>
             <h2>Languages and Frameworks</h2>
               <div className = 'learnered'>
-                <p>JavaScript, HTML, CSS, React, Mongo, C#, Express, Postgres, </p>
+                <p>JavaScript, HTML, CSS, React, Mongo, C#, Express, Postgres, express, unity,  </p>
               </div>
           </div>
     <footer>
-      <p> A link to my linkedin github and maybe email should double check with rachel</p>
+      <p> Links to my Linkedin page and my Github page</p>
     </footer>
   </div>
   );

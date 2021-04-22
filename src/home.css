@@ -6,6 +6,10 @@ html {
     min-height: 100vh;
 }
 
+p {
+    color: whitesmoke;
+}
+
 .aboutMe {
     text-align: center;
     width: 800px;
@@ -29,9 +33,12 @@ html {
     margin: 10px;
 }
 
-.dropbtn {
-    font-size: 30px;
-    background-color: skyblue;
+.zombtn {
+    color: rgba(221, 205, 205, 0);
+    font-size: 50px;
+    background: url(EveningOfTheDead.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .zombies {
@@ -64,6 +71,16 @@ html {
     background-color: aqua;
 }
 
+.evening {
+    padding-right: 1400px;
+    font-family: fantasy;
+}
+
+.empirebtn {
+    font-size: 50px;
+    background-color: skyblue;
+}
+
 .ageOfEmpiresTwo {
     position: relative;
     display: inline-block;
@@ -94,6 +111,11 @@ html {
     background-color: aqua;
 }
 
+.gamebtn {
+    font-size: 50px;
+    background-color: skyblue;
+}
+
 .game-overflow {
     position: relative;
     display: inline-block;
@@ -122,6 +144,11 @@ html {
 
 .game-overflow:hover .dropbtn {
     background-color: aqua;
+}
+
+.walkbtn {
+    font-size: 50px;
+    background-color: skyblue;
 }
 
 .a-nice-walk {
