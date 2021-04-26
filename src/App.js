@@ -11,7 +11,7 @@ function App() {
           <h2>About Jason</h2>
           <p className = 'aboutMeText'> 
               Growing up with a love for electornics and videogames it's suprising I've 
-              taken this long to persue my dream. Completeing a full emerisve bootcamp
+              taken this long to persue my dream. Completeing a full immersive bootcamp
               at General Assembly has given me a lot of tools I have on display. I'm always 
               looking to improve on or work on a project wither it be my own or a groups.  
           </p>
