@@ -35,7 +35,7 @@ p {
 
 .zombtn {
     color: rgba(221, 205, 205, 0);
-    font-size: 50px;
+    font-size: 85px;
     background: url(EveningOfTheDead.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -72,14 +72,21 @@ p {
 }
 
 .evening {
-    padding-right: 1400px;
     font-family: fantasy;
     width: 25vw;
 }
 
 .empirebtn {
-    font-size: 50px;
-    background-color: skyblue;
+    color: rgba(221, 205, 205, 0);
+    font-size: 60px;
+    background: url(aoe-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aoe {
+    font-family: fantasy;
+    width: 25vw;
 }
 
 .ageOfEmpiresTwo {
