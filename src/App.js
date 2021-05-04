@@ -46,7 +46,10 @@ function App() {
             <button className = 'gamebtn'>Game Over Flow</button>
             <div className = 'gameContent'>
               <p className = 'gameP'>
-                Games are life. Life is games. 
+                My first group project, my main focus was the front end design. Working together we made a full 
+                stack website. The main focus is a group chat/help center where you can find others to help
+                you get through tough spots in a game your playing. Or if you just want to chat about games you love
+                and make new friends. It's still very much a work in progress. 
               </p>
             </div>
           </div>
@@ -54,7 +57,7 @@ function App() {
             <button className = 'walkbtn'>A Nice Walk</button>
             <div className = 'walkContent'>
               <p className = 'walkP'>
-                For a final project I chose to make a first person experience. Using unity and C# I was
+                For a final project I chose to make a first person experience. Using Unity and C# I was
                 able to create an experience allowing player to move, look, duck, sprint, jump, and interact with 
                 some objects. 
               </p>
@@ -68,7 +71,8 @@ function App() {
               </div>
           </div>
     <footer>
-      <p> Links to my Linkedin page and my Github page</p>
+      <a href = 'https://www.linkedin.com/in/jason-thulen/'>My Linkedin Account</a>
+      <a href = 'https://github.com/jaysun025'>My GitHub</a>
     </footer>
   </div>
   );
