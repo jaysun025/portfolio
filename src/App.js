@@ -26,7 +26,7 @@ function App() {
                   Using JavaScript, CSS, and HTML I created a dodge the falling 
                   objects game. It has  zombie theme to it and I did the art work
                   myself.
-                  <a href ='https://evening-of-the-dead.netlify.app/' target = '_blank'>See how long you can last.</a>
+                  <a href ='https://evening-of-the-dead.netlify.app/' target = '_blank' rel = 'noreferrer'>See how long you can last.</a>
                 </p>
               </div>
           </div>
@@ -38,7 +38,7 @@ function App() {
                 My first full-stack application using a Heroku API. I wanted to make a help guide so I 
                 could play Age of Empires 2 better. It helps you find your favorite types of units or tech and save
                 them to a favorites list. 
-                <a href = 'https://aoe-favs.herokuapp.com/profile' target = '_blank'>Find your favorites.</a>
+                <a href = 'https://aoe-favs.herokuapp.com/profile' target = '_blank' rel = 'noreferrer'>Find your favorites.</a>
               </p>
             </div>
           </div>
@@ -54,6 +54,7 @@ function App() {
             </div>
           </div>
           <div className = 'a-nice-walk'>
+            <h2 className = 'niceWalk'>A Nice Walk</h2>
             <button className = 'walkbtn'>A Nice Walk</button>
             <div className = 'walkContent'>
               <p className = 'walkP'>
@@ -71,8 +72,9 @@ function App() {
               </div>
           </div>
     <footer>
-      <a href = 'https://www.linkedin.com/in/jason-thulen/'>My Linkedin Account</a>
-      <a href = 'https://github.com/jaysun025'>My GitHub</a>
+      <a href = 'https://www.linkedin.com/in/jason-thulen/' target = '_blank' rel = 'noreferrer' className = 'link'>My Linkedin Account</a>
+      <break />
+      <a href = 'https://github.com/jaysun025' target = '_blank' rel = 'noreferrer' className = 'github'>My GitHub Account</a>
     </footer>
   </div>
   );
