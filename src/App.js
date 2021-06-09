@@ -65,8 +65,8 @@ function App() {
             </div>
           </div>
     </div>
-          <div className = 'languages-frameworks'>
-            <h2>Languages and Frameworks</h2>
+          <div className = 'languages'>
+            <h2>Languages & Frameworks</h2>
               <div className = 'learnered'>
                 <p>JavaScript, HTML, CSS, React, Mongo, C#, Express, Postgres, express, unity,  </p>
               </div>

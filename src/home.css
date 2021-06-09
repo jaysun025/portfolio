@@ -2,7 +2,7 @@ html {
     text-align: center;
     color: black;
     font-size: large;
-    background-image: linear-gradient(-45deg, red, yellow, green);
+    background-image: linear-gradient(-45deg, blue, red);
     animation: gradient 15s ease infinite;
     background-size: 400% 400%;
 }
@@ -25,20 +25,20 @@ p {
 
 .aboutMe {
     text-align: center;
+    color: white;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-    border: outset salmon 5px;
+    border: outset black 5px;
     border-radius: 30px;
-    background-image: linear-gradient(pink, red);
+    background-image: linear-gradient(white);
 }
 
 .projects {
     display: flex;
     flex-direction: row;
-    border: inset aqua 5px;
+    border: inset black 5px;
     border-radius: 10%;
-    background-color: skyblue;
 }
 
 .projects > div {
@@ -218,10 +218,9 @@ p {
     font-size: 30px;
 }
 
-.languages-frameworks {
-    border: inset orange 5px;
+.languages {
+    border: inset black 5px;
     border-radius: 10%;
-    background-image: linear-gradient(black, orangered);
     position: relative;
     top: 100px;
 }
@@ -241,5 +240,5 @@ footer {
     font-size: 20px;
     border: black solid 5px;
     margin-top: 198px;
-    background-image: linear-gradient(orange, yellow);
+    background-color: white;
 }
